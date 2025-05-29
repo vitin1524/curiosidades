@@ -1,0 +1,73 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #002fca;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+header h1 {
+    margin: o;
+    font-size: 2rem;
+}
+
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.curiosidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.curiosidades-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.curiosidades-card:hover {
+    transform: scale(1.05);
+}
+
+.curiosidades-card h3 {
+    color: #0077cc;
+}
+
+footer {
+    background-color: #15cb31;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Responsividade */
+@media (max-widht: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .curiosidades-card {
+        width: 90%;
+    }
+}
