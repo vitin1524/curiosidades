@@ -1,79 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Curiosidades do Mundo</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curiosidades Incríveis</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Curiosidade do Mundo</h1>  
-  <nav>
-    <ul>
-      <li><a href="#">Início</a></li>
-      <li><a href="#">Curiosidades</a></li>
-      <li><a href="#">Galeria</a></li>
-      <li><a href="#">Contato</a></li>
-    </ul>
-  </nav>
-  </header>
+    <header>
+        <h1>Curiosidades Incríveis</h1>
+    </header>
 
-  <!--IMAGEM DESTAQUE NO TOPO-->
-  <section style="text-align: center; margin:30pc 0;">
-    <h2>Assuntos Curiosos</h2>
-    <ul style="list-style: nome; padding: 0;">
-      <li><a href="#ancora1">Energia do Cérebro</a></li>
-      <li><a href="#ancora2">O Sangue Azul dos Polvos</a></li>
-      <li><a href="#ancora3">Um Dia em Vênus</a></li>
-    </ul>
-  </section>
+    <nav>
+        <a href="#curiosidades">Curiosidades</a>
+        <a href="#videos">Vídeos</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#links">Links Úteis</a>
+    </nav>
 
-  <main>
+    <div class="hero">
+        <h2>Esplore as curiosidades mais fascinantes do planeta!</h2>
+    </div>
 
-    <!--CONTEÚDO CURIOSO ORIGINAL-->
-    <section class="curiosidade">
-      <h2>Você sabia?</h2>
-      <p>O polvo tem três corações e seu sangue é azul</p>
-    </section>
+    <main>
+        <div class="intro" >
+            <p>Descubra curiosidades fascinantes sobre o mundo ao nosso redor!</p>
+        </div>
 
-    <section class="curiosidade">
-      <h2>Curiosidade Histórica</h2>
-      <p>Cleópatra viveu mais próxima do primeiro pouso na lua do que das contruções das pirâmides</p>
-    </section>
+        <section class="curiosidades">
+            <div class="curiosidade-card">
+                <h3>Você sabia?</h3>
+                <p>O polvo tem três corações e o sangue azul!</p>
+            </div>
 
-    <section class="curiosidade">
-      <h2>Curiosidade Científica</h2>
-      <p>O DNA humano é 60% semelhante ao de uma banana!</p>
-    </section>
+            <div class="curiosidade-card">
+                <h3>Fato curioso</h3>
+                <p>A Lua se afasta da Terra cerca de 3,8 cm por ano.</p>
+            </div>
 
-    <!--NOVOS COTEÚDOS COM ÂNCORAS-->
+            <div class="curiosidade-card">
+                <h3>Inacreditável!</h3>
+                <p>Existem mais estrelas no universo do que grãos de areia em todas as praias da Terra.</p>
+            </div>
+        </section>
+<br>
+        <section class="video" id="videos">
+            <h2>Veja também:</h2>
+            <p>Assista a um vídeo cheio de curiosidades interessantes!</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/MHNAlVJN_R4?si=NbTLOZZsGiXL3SR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+<br>
+        <section class="galeria" id="galeria">
+            <h2>Veja as Fotos:</h2>
+            <table>
+                <tr>
+                    <th><img src="https://cdn.oantagonista.com/uploads/2025/04/Qual-a-fases-da-Lua-hoje-1-1024x576.jpg" alt="Lua"></th>
+                    <th><img src="https://static.todamateria.com.br/upload/po/lv/polvos-og.jpg?class=ogImageRectangle" alt="Polvo"></th>
+                    <th><img src="https://www.ufmg.br/espacodoconhecimento/wp-content/uploads/2021/03/eso1625a-1024x776.jpg" alt="Estrelas"></th>
+                </tr>
+        </table>
+        </section>
+        <br>
 
-    <!--ÂNCORA 1-->
-    <section id="ancora1" class="curiosidade">
-      <!--Comentário: Esta é a âncora para "Energia do cérebro humano"-->
-      <h2>Energia do Cérebro Humano</h2>
-      <p>O cérebro humano representa apenas 2% da massa corporal, mas consome cerca de 20% da energia total do corpo, mesmo em reposuo!</p>
-    </section>
+        <section class="links-uteis" id="links">
+            <h2>Links úteis</h2>
+            <ul>
+                <li><a href="https://www.megacurioso.com.br/" target="_blank">Mega Curioso</a></li>
+                <li><a href="https://www.historiadomundo.com.br/curiosidades" target="_blank">História do Mundo</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" target="_blank">WikiPédia</a></li>
+            </ul>
 
-    <!--ÂNCORA 2-->
-    <section id="ancora2" class="curiosidade">
-      <!--Comentário: Esta é a âncora para "O Sangue Azul dos Polvos"-->
-      <h2>O Sangue Azul dos Polvos</h2>
-      <p>Os polvos possuem três corações e seu sangue é azul devido à hemocianina, uma proteína baseada em cobre que transporta oxigênio</p>
-    </section>
+        </section>
+    </main>
 
-    <!--ÂNCORA 3-->
-    <section id="ancora3" class="curiosidade">
-      <!--Comentário: Esta é a âncora para "Um Dia em Vênus"-->
-      <h2>Um Dia em Vênus</h2>
-      <p>Vênus gira tão lentamente que um dia completo no planeta é mais longo do que o tempo que leva para dar uma volta ao redor do sol</p>
-    </section>
+    <footer>
+        <p>Site desenvolvido por Vitor dos Santos Pereira Colégio Estadual Vicente Rijo Londrina PR</p>
+    </footer>
 
-  </main>
 
-  <footer>
-    <p>&copy;2023 Curiosidades do Mundo. Todos os direitos reservados.</p>
-  </footer>
 </body>
 </html>
